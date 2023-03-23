@@ -1,0 +1,36 @@
+{
+  "info": {
+    "version": "",
+    "description": "",
+    "title": "Sample GET"
+  },
+  "paths": {
+    "/sample_endpoint": {
+      "get": {
+        "parameters": [
+          {
+			  "name": "input_1",
+            "description": "Input 1",
+            "required": true,
+            "in": "query",
+			  "type": "string"
+          },
+		  {
+			"name": "input_2",
+            "description": "Input 2",
+            "required": true,
+            "in": "query",
+			"type": "string"
+          }
+        ],
+		"tags": [
+          "Request"
+        ],
+        "summary": "",
+        "description": ""
+      }
+    }
+  },
+  "host": "sample_host.com",
+  "swagger": "2.0"
+}

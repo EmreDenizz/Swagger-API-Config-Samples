@@ -1,0 +1,32 @@
+{
+  "info": {
+    "version": "",    
+    "description": "",
+    "title": "Sample POST - File"
+  },
+  "paths": {
+    "/sample_endpoint": {
+      "post": {
+        "parameters": [
+		    {
+            "name": "image_file",
+            "in": "formData",
+            "description": ".png file",
+            "required": true,
+            "type": "file"
+          }
+        ],
+        "produces": [
+          "application/json"
+        ],
+	      "tags": [
+          "Request"
+        ],
+        "summary": "",
+        "description": ""
+      }
+    }
+  },
+  "host": "sample_host.com",
+  "swagger": "2.0"
+}

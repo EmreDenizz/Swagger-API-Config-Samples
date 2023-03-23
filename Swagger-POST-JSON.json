@@ -1,0 +1,49 @@
+{
+  "info": {
+    "version": "",
+    "description": "",
+    "title": "Sample POST - JSON"
+  },
+  "paths": {
+    "/sample_endpoint": {
+      "post": {
+        "parameters": [
+          {
+            "schema": {
+              "$ref": "#/definitions/input"
+            },
+            "description": "",
+            "required": true,
+            "name": "body",
+            "in": "body"
+          }
+        ],
+        "produces": [
+          "application/json"
+        ],
+		"tags": [
+          "Request"
+        ],
+        "summary": "",
+        "description": ""
+      }
+    }
+  },
+  "host": "sample_host.com",
+  "definitions": {
+    "input": {
+      "xml": {
+        "name": "Website"
+      },
+      "type": "object",
+      "properties": {
+        "Website": {
+          "type": "string",
+          "example": "google.com",
+          "description": "Website address"
+        }
+      }
+    }
+  },
+  "swagger": "2.0"
+}
