@@ -19,7 +19,7 @@
         "produces": [
           "application/json"
         ],
-	      "tags": [
+	"tags": [
           "Request"
         ],
         "summary": "",
