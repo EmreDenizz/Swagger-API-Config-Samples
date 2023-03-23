@@ -9,11 +9,11 @@
       "get": {
         "parameters": [
           {
-			  "name": "input_1",
+	    	"name": "input_1",
             "description": "Input 1",
             "required": true,
             "in": "query",
-			  "type": "string"
+			"type": "string"
           },
 		  {
 			"name": "input_2",
